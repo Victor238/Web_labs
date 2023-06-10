@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Work Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to Work Page</h1>
+        <input id="sessionNameInput" type="text" placeholder="Session Name">
+
+        <input id="sessionTimeInput" type="number" min="1" placeholder="Session Time (minutes)">
+
+        <div id="timerDisplay" class="timer-display">00:00</div>
+
+        <div class="timer-buttons">
+          <button id="startTimer" onclick="startTimer()">Start Timer</button>
+          <button id="pauseTimer" onclick="pauseTimer()">Pause Timer</button>
+          <button id="resumeTimer" onclick="resumeTimer()">Resume Timer</button>
+          <button id="stopTimer" onclick="stopTimer()">Stop Timer</button>
+        </div>
+
+        <button id="saveSession" onclick="saveSession()">Save Session</button>
+        <table id="sessionTable">
+          <thead>
+            <tr>
+              <th>Session Name</th>
+              <th>Start Time</th>
+              <th>End Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Тут буде динамічно додаватися рядок з інформацією про сесію -->
+          </tbody>
+        </table>
+    </main>
+
+</body>
+
+</html>

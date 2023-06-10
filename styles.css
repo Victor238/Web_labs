@@ -1,0 +1,215 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Registration page */
+#registrationForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#registrationForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+#registrationForm input,
+#registrationForm select {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+#registrationForm button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Login page */
+#loginForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#loginForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+#loginForm input {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+#loginForm button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Profile page */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* About page */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Work page */
+#startTimer,
+#pauseTimer,
+#resumeTimer,
+#stopTimer {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+#sessionTimeInput {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+#timerDisplay {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 64px;
+    font-weight: bold;
+    color: black;
+    background-color: #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+#sessionNameInput {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+#sessionTime {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#saveSession {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for buttons "About", "Profile", "Registration" and "Login" */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-links li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-links li a[href="about.html"] {
+    background-color: #4CAF50;
+}
+
+.nav-links li a[href="profile.html"] {
+    background-color: #4CAF50;
+}
+
+.nav-links li a[href="registration.html"] {
+    background-color: #4CAF50;
+}
+
+.nav-links li a[href="login.html"] {
+    background-color: #4CAF50;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+        
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" required><br>
+        
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
